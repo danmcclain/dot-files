@@ -1,0 +1,7 @@
+*
+!.gitignore
+!nvim/
+!coc/
+!nvim/**
+nvim/.netrwhist
+!coc/**
