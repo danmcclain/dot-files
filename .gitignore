@@ -5,3 +5,4 @@
 !nvim/**
 nvim/.netrwhist
 !coc/**
+!setup.md
