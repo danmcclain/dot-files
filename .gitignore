@@ -6,3 +6,6 @@
 nvim/.netrwhist
 !coc/**
 !setup.md
+coc/history.json
+coc/commands
+coc/mru
