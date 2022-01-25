@@ -9,3 +9,12 @@ nvim/.netrwhist
 coc/history.json
 coc/commands
 coc/mru
+coc/extensions/node_modules
+coc/lists
+coc/history.json
+coc/list-commands-history.json
+coc/list-diagnostics-history.json
+coc/list-links-history.json
+coc/list-lists-history.json
+coc/list-outline-history.json
+coc/list-services-history.json

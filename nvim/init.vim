@@ -3,13 +3,18 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-surround'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'vim-airline/vim-airline'
+Plug 'SirVer/ultisnips'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
@@ -95,3 +100,10 @@ packadd! dracula_pro
 syntax enable
 let g:dracula_colorterm = 0
 colorscheme dracula_pro
+
+autocmd FileType go nmap <leader>t  <Plug>(go-test)
+
+let g:python3_host_prog="/Users/dmc/.asdf/shims/python3"
+
+set list
+set listchars=space:•,eol:¬,tab:→\
